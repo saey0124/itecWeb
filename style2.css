@@ -57,7 +57,8 @@ aside a{
   align-items: center;
 }
 img{
-    width: 70%
+    width: 70%;
+    border-radius:50%;
 }
 .bar{
      width: 100%;
