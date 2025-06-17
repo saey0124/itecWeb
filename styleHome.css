@@ -1,0 +1,96 @@
+body{
+    background-color: #10101A; font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar{
+     padding: 0 20px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+   text-decoration: none; font-size: 36px; color: #e09d04; font-weight: bold
+}
+.navdiv ul li{
+    list-style: none; display: inline-block; 
+}
+.navdiv ul li a{
+    text-decoration: none; color: white; padding: 12px; font-weight: bold; font-size: 24px;
+}
+.navdiv ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.navdiv ul li a:hover,
+.navdiv ul li a.active {
+  color: #e09d04;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.group-title {
+  color: #e09d04;
+  font-size:36px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.member-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  background-color: #e09d04;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.member-list li {
+  background-color: #1c1c2c;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.member-list li:hover {
+  transform: scale(1.05);
+}
+
+.member-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.member-list img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e09d04;
+}
+.bar{
+     width: 100%;
+     height: 80px; 
+     background-color: #030212; 
+     position: fixed; 
+     bottom: 0;
+}
