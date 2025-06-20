@@ -1,0 +1,67 @@
+body{
+    background-color: #10101A; font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar{
+     padding: 0 20px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+   text-decoration: none; font-size: 36px; color: #e09d04; font-weight: bold
+}
+.navdiv ul li{
+    list-style: none; display: inline-block; 
+}
+.navdiv ul li a{
+    text-decoration: none; color: white; padding: 12px; font-weight: bold; font-size: 24px;
+}
+.navdiv ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.navdiv ul li a:hover,
+.navdiv ul li a.active {
+  color: #e09d04;
+  }
+  h1{
+    color: #e09d04;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+  margin: 70px;
+  max-width: 100%;
+}
+
+.collage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .collage {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .collage {
+    grid-template-columns: 1fr;
+  }
+}
+
